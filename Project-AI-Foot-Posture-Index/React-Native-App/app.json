@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "cameraApp",
+    "slug": "cameraApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/foot.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kingmadridli.cameraApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4194bc1a-62a0-4b68-89bf-12330c7025ee"
+      }
+    }
+  },
+  "android": {
+    "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+  }
+}
